@@ -43,12 +43,12 @@ a:hover {
 	font-size: 30px;
 }
 
-.header__nav ul {
+ul {
 	display: flex;
 	gap: 30px;
 }
 
-.header__nav li {
+li {
 	list-style: none;
 }
 
@@ -160,18 +160,6 @@ a:hover {
 	line-height: 1.7;
 }
 
-.icon {
-	color: #18B5DC;
-	background-color: white;
-	border: 2px solid #18B5DC;
-}
-
-.icon:hover {
-	color: white;
-	background-color: #18B5DC;
-	border: 2px solid #18B5DC;
-}
-
 .iconb {
 	color: white;
 	background-color: #5DCBE6;
@@ -180,4 +168,47 @@ a:hover {
 .iconb:hover {
 	color: #18B5DC;
 	background-color: white;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 28px;
+}
+
+.footer__logo {
+	display: flex;
+	align-items: center;
+	cursor: default;
+}
+
+.footer__logo-text {
+	font-family: 'Train One';
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.footer__nav {
+	margin: 28px 0;
+}
+
+.footer__icons {
+	display: flex;
+	gap: 10px;
+}
+
+.icons {
+	color: #18B5DC;
+	background-color: white;
+	border: 2px solid #18B5DC;
+}
+
+.icons:hover {
+	color: white;
+	background-color: #18B5DC;
+	border: 2px solid #18B5DC;
 }
